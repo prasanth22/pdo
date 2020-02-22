@@ -31,8 +31,8 @@ else
 	<title>Insert Values using PDO </title>
 </head>
 <body>
-	<p><?php // print_r(PDO::getAvailableDrivers()); //query to check available drivers?></p>
 <form method="post">
+	<p><?php // print_r(PDO::getAvailableDrivers()); //query to check available drivers?></p>
 	<h3>Insert data into the database using PDO</h3>
 	Name :<input type="text" name="fullname" required><br />
 	Phone Number <input type="text" name="phonenumber" required><br />
